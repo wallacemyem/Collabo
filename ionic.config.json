@@ -1,0 +1,8 @@
+{
+  "name": "Collabo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "066dd7ce"
+}
