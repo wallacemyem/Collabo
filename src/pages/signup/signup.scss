@@ -1,4 +1,9 @@
 signup-page {
+
+	ion-header {
+		@include header-styles(color($colors, header, contrast), color($colors, header, base));
+	}
+	
 	.signup-content
 	{
 		.legal-stuff

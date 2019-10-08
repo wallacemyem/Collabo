@@ -2,10 +2,13 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { FeedPage } from '../feed/feed';
+//import { ProfilePage } from '../profile';
 import 'rxjs/Rx';
 
 import { ListingModel } from './listing.model';
 import { ListingService } from './listing.service';
+import { ProfilePage } from '../profile/profile';
+//import { LoginPage } from '../login/login';
 
 
 @Component({
@@ -33,8 +36,12 @@ export class ListingPage {
 
 
   goToFeed(category: any) {
-    console.log("Clicked goToFeed", category);
-    this.nav.push(FeedPage, { category: category });
+    console.log("Clicked category.link", category);
+    this.nav.push(ProfilePage, { category: category });
   }
 
+  goToListing() {
+    this.nav.push(ListingPage);
+
+}
 }

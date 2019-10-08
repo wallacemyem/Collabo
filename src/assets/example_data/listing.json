@@ -29,33 +29,28 @@
     ],
     "categories": [
         {
-            "title": "Basketball",
-            "image": "./assets/images/listing/200x200basquet.png"
+            "title": "TimeTable",
+            "image": "./assets/images/listing/time.png",
+            "link": "goToListing"
+            
         },
         {
-            "title": "Boxing",
-            "image": "./assets/images/listing/200x200boxeo.png"
+            "title": "Calender",
+            "image": "./assets/images/listing/cal.png"
         },
         {
-            "title": "Crossfit",
-            "image": "./assets/images/listing/200x200crossfit.png"
+            "title": "Doc(coming soon)",
+            "image": "./assets/images/listing/docs2.png"
         },
         {
-            "title": "Futbol",
-            "image": "./assets/images/listing/200x200futbol.png"
+            "title": "Ppt(coming soon)",
+            "image": "./assets/images/listing/ppt2.png"
         },
         {
-            "title": "Running",
-            "image": "./assets/images/listing/200x200running.png"
-        },
-        {
-            "title": "Swimming",
-            "image": "./assets/images/listing/200x200swimming.png"
-        },
-        {
-            "title": "Yoga",
-            "image": "./assets/images/listing/200x200yoga.png"
+            "title": "Chat(beta)",
+            "image": "./assets/images/listing/chat2.png"
         }
+       
 
     ]
 }

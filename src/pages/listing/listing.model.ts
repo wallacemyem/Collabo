@@ -3,9 +3,11 @@ export class ListingModel {
   categories: Array<ListingItemModel>;
   banner_title: string;
   banner_image: string;
+
 }
 
 export class ListingItemModel {
   title: string;
   image: string;
+  link: string;
 }

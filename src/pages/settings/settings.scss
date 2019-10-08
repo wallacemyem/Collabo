@@ -1,4 +1,9 @@
 settings-page {
+
+	ion-header {
+		@include header-styles(color($colors, header, contrast), color($colors, header, base));
+	}
+	
 	.settings-content
 	{
 		background-color: color($colors, background, base);

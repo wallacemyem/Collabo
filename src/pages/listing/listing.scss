@@ -9,13 +9,23 @@
 	margin: 0px;
 }
 
+ion-title {
+	.ion-title-text{
+		color: black;
+		
+	}
+}
 listing-page {
 	$categories-heading-image-height: 150px;
 	$categories-grid-padding: 10px;
 	$categories-horizontal-list-padding: 10px;
 
+	
+	@include header-styles(color($colors, header, contrast), color($colors, header, base));
+	
 	.listing-header
 	{
+		
 		.header-logo
 		{
 			width: 34vw;
@@ -144,4 +154,8 @@ listing-page {
 			}
 		}
 	}
+	
+}
+Button{
+	position: fixed
 }

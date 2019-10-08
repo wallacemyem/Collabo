@@ -1,4 +1,16 @@
+
 login-page {
+	
+	ion-header{
+
+	.auth-header{
+		@include header-styles(color($colors, header, contrast), color($colors, header, base));
+	}
+
+	.ion-header {
+		@include header-styles(color($colors, header, contrast), color($colors, header, base));
+	}
+	}
 	.login-content
 	{
 		.alt-options

@@ -14,6 +14,7 @@ import { FirebaseLoginPage } from '../pages/firebase-integration/firebase-login/
 import { WordpressMenuPage } from '../pages/wordpress-integration/wordpress-menu/wordpress-menu';
 
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+//import { MainPage } from '../pages/main/main';
 
 @Component({
   selector: 'app-root',
@@ -24,6 +25,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make WalkthroughPage the root (or first) page
+  //rootPage: any = MainPage;
   rootPage: any = WalkthroughPage;
   // rootPage: any = TabsNavigationPage;
   textDir: string = "ltr";

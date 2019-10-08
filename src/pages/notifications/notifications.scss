@@ -1,4 +1,8 @@
 notifications-page {
+	
+	ion-header {
+		@include header-styles(color($colors, header, contrast), color($colors, header, base));
+	}
 	.notifications-content
 	{
 		.notifications-divider
